@@ -7,8 +7,8 @@ class Project
   
   def add_backer(backer_name)
     @backers << backer_name
-     << self 
-    bindbacker_name.backed_projectsing.pry
+    backer_name.backed_projects << self 
+    binding.pry
   end
   
 end 
